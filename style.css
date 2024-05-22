@@ -1,7 +1,6 @@
 @font-face {
-  font-family: Pretendard;
-  src: url("./font/Pretendard-Regular.subset.woff2") format(woff2), url("./font/Pretendard-Regular.subset.woff") format(woff);
-  font-weight: 400;
+  font-family: PretendardVariable;
+  src: url("./font/PretendardVariable.woff2") format(woff2);
   font-style: normal;
 }
 * {
@@ -11,11 +10,11 @@
 
 html {
   font-size: 15px;
-  font-family: "Pretendard", "Noto Sans TC", sans-serif;
+  font-family: "PretendardVariable", "Noto Sans TC", sans-serif;
 }
 
 p {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 800;
   font-size: 2rem;
   line-height: 3rem;
@@ -152,12 +151,12 @@ table tr {
   font-size: 1.25rem;
 }
 table tr td:nth-child(1) {
-  font-family: "Pretendard";
+  font-family: "PretendardVaiable";
   font-weight: 400;
   padding-left: 1rem;
 }
 table tr td:nth-child(2) {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 800;
 }
 table tr:nth-child(1) {
