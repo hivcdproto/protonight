@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+p {
+  font-family: "Pretendard-extrabold";
+  font-size: 2rem;
+  line-height: 3rem;
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+
+body {
+  background: linear-gradient(180deg, #FF2F33 0%, #FFFFFF 4%, #FFFAFB 6%, #F7B1B2 88%, #FF2F33 100%);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100vw;
+}
+
+.logo-wrapper {
+  width: 100vw;
+  height: 60vh;
+  padding-top: 11.93rem;
+}
+
+.type1 {
+  width: 13.5rem;
+}
+
+.type2 {
+  width: 14.15rem;
+}
+
+.type3 {
+  width: 11.875rem;
+}
+
+.type4 {
+  width: 11.75rem;
+}
+
+.type5 {
+  width: 10.465rem;
+}
+
+.type6 {
+  width: 11.3125rem;
+}
+
+.logo-image {
+  position: absolute;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: calc((100vw - 2rem) / 12 * 10);
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+.welcome p {
+  text-align: center;
+  width: calc((100vw - 2rem) / 12 * 6);
+}
+.welcome p span {
+  color: #fff;
+  background-color: #000;
+  padding: 0 2px 0 2px;
+}
+
+.info {
+  width: 100%;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.section-title img {
+  width: calc((100vw - 2rem) / 12 * 3.5);
+}
+
+.info-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.info-list p {
+  margin: 0;
+  width: calc((100vw - 2rem) / 24 * 13);
+}
+
+.order {
+  width: 9rem;
+  height: 3rem;
+  background-color: #000;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 0.3rem;
+  margin-right: calc((100vw - 2rem) / 24 * 1);
+}
+
+.timetable {
+  width: 100%;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: calc((100vw - 2rem) / 12 * 6);
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  border-collapse: collapse;
+}
+table tr {
+  border-top: 1px dashed #000;
+  font-size: 1.25rem;
+}
+table tr td:nth-child(1) {
+  font-family: "Pretendard-light";
+  padding-left: 1rem;
+}
+table tr td:nth-child(2) {
+  font-family: "Pretendard-extrabold";
+}
+table tr:nth-child(1) {
+  border: none;
+}
+table td {
+  padding: 1rem 0 0.8rem;
+}
+
+.proto {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 2rem 0;
+}
+.proto img {
+  width: calc((100vw - 2rem) / 12 * 0.8);
+}
+
+@media screen and (max-width: 760px) {
+  .logo-wrapper {
+    height: 40vh;
+    padding-top: 6rem;
+  }
+  .logo img {
+    width: calc((100vw - 2rem) / 12 * 11);
+  }
+  .welcome p {
+    text-align: center;
+    width: calc((100vw - 2rem) / 12 * 10);
+  }
+  .welcome p span {
+    color: #fff;
+    background-color: #000;
+    padding: 0 2px 0 2px;
+  }
+  .section-title img {
+    width: calc((100vw - 2rem) / 12 * 5);
+  }
+  table {
+    width: calc((100vw - 2rem) / 12 * 9);
+  }
+}
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 10px;
+  }
+  .logo-wrapper {
+    height: 30vh;
+    padding-top: 6rem;
+  }
+  .logo img {
+    width: calc((100vw - 2rem) / 12 * 12);
+  }
+  .info-list p {
+    width: calc((100vw - 2rem) / 12 * 9);
+  }
+}
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 8px;
+  }
+  .logo-wrapper {
+    height: 30vh;
+    padding-top: 12rem;
+  }
+}/*# sourceMappingURL=style.css.map */
