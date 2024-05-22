@@ -158,7 +158,7 @@ table{
 
         td:nth-child(1){
             font-family: 'PretendardVaiable';
-            font-weight: 400;
+            font-weight: 500;
             padding-left: 1rem;
         }
         td:nth-child(2){
@@ -237,6 +237,12 @@ table{
 
 }
 
+.proto{
+    img{
+        width: calc((100vw - 2rem)/12*2);
+    }
+}
+
 .type1{
     width: 20rem;
 }
@@ -276,4 +282,16 @@ table{
             width:calc((100vw - 2rem)/12*9);
         }
     }
+    tr{
+        td:nth-child(1){
+            font-family: 'PretendardVaiable';
+            font-weight: 500;
+            padding-left: 1rem;
+        }
+        td:nth-child(2){
+            font-family: 'PretendardVariable';
+            font-weight: 600;
+        }
+    }
+    
 }
