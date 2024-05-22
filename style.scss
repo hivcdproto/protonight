@@ -267,6 +267,10 @@ table{
         font-size: 10px;
     }
 
+    p{
+        font-weight: 600;
+    }
+
     .logo-wrapper{
         height:100vh;
         padding-top: 6rem;
@@ -279,7 +283,7 @@ table{
      }
      .info-list{
         p{
-            width:calc((100vw - 2rem)/12*9);
+            width:calc((100vw - 2rem)/12*8);
         }
     }
     tr{
